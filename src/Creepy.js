@@ -123,9 +123,9 @@ class Creepy extends React.Component{
 
      <div>
      
-     <Button id="NextCat" href="/urban" bsStyle="primary"> Go To Urban Legends </Button>
+     <Button id="NextCat" href="/urban" bsStyle="primary"> Urban Legends </Button>
      
-     <Button id="BackCat" href="/home" bsStyle="success"> Back To Home Page </Button>
+     <Button id="BackCat" href="/home" bsStyle="success"> Home Page </Button>
 
      </div>
 

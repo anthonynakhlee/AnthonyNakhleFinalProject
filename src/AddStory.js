@@ -44,9 +44,8 @@ export default class Todo extends React.Component {
     return (
       <Router>
         <div>
-          <Link to="/stories">list</Link> -
-          <Link to="/admin">admin</Link> -
-          <Link to="/add">add a story</Link>
+          <Link to="/stories">Stories</Link> -
+          <Link to="/admin"> Admin</Link>
           <Switch>
             <Route
               exact

@@ -10,7 +10,6 @@ class Home extends React.Component{
           <title>Home</title>
           <div className="container">
           </div>
-
           <Navbar inverse collapseOnSelect id="navbar-expand-lg">
           <Navbar.Header>
             <Navbar.Brand>
@@ -36,7 +35,7 @@ class Home extends React.Component{
         </Navbar>;
 
           <div className="jumbotron">
-            <h1 className="display-4">Welcome To The World Of Horror Stories</h1>
+            <h1 className="display-4">Welcome To The World Of <span className="blood"> Horror Stories </span> </h1>
             <p className="lead">Our purpose is to make sure every horror story lover gets the chills he expects when reading something scary.</p>
             <p className="leads">Everyone deserves to take a break from life, venture into our stories and get that spooky feeling you deserve!</p>
             <p className="lead">

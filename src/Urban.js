@@ -93,9 +93,9 @@ class Urban extends React.Component{
       
         <div>
      
-     <Button id="NextCat" href="/paranormal" bsStyle="primary"> Go To Paranormal Stories</Button>
+     <Button id="NextCat" href="/paranormal" bsStyle="primary"> Paranormal Stories</Button>
      
-     <Button id="BackCat" href="/creepy" bsStyle="success">Back To Creepypasta</Button>
+     <Button id="BackCat" href="/creepy" bsStyle="success"> Creepypasta</Button>
 
      </div>
 

@@ -101,9 +101,9 @@ After this, I had never heard another whisper again. Which is sad, because in so
 
           <div>
      
-     <Button id="NextCat" href="/contact" bsStyle="primary"> Go To Contact Us </Button>
+     <Button id="NextCat" href="/contact" bsStyle="primary"> Contact Us </Button>
      
-     <Button id="BackCat" href="/urban" bsStyle="success">Back To Urban Legends</Button>
+     <Button id="BackCat" href="/urban" bsStyle="success"> Urban Legends</Button>
 
      </div>
         

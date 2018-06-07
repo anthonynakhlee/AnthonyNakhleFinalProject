@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 
  /* The navigation bar */
@@ -28,9 +27,13 @@ body {
 
 /* stories images fixed center */
 .img-fluid{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
   width: 850px;
-  height: 560px;
-  margin-bottom: 5px;
+  padding: 0.5em;
+  max-height: 80%;
+  
 }
 
 /* text fixed center */
@@ -92,15 +95,6 @@ width: 260px;
 vertical-align: top;
 }
 
-@media(max-width: 800px){
-  .img-fluids{
-      float: left;
-      display: block;
-      margin-left: 30px;
-      margin-top: 20px;
-  }
-}
-
 .lead{
   text-align: center;
 }
@@ -114,6 +108,7 @@ vertical-align: top;
   width: 100%;
   z-index: 1;
   color: black;
+  left: 0px;
 }
 
 #NextCat{
@@ -123,7 +118,8 @@ vertical-align: top;
   position: relative;
   bottom: 75px;
   line-height: 35px;
-  margin-right: 2px;
+  margin-right: 35px;
+  
 }
 
 #BackCat{
@@ -133,11 +129,106 @@ vertical-align: top;
   position: relative;
   bottom: 75px;
   line-height: 35px;
-  margin-left: 7px;
+  margin-left: 35px;
 }
 
 #StoryText{
-  width: 460px;
+  width: 370px;
   height: 200px;
-  margin-left: -50px;
+  float: left;
+  left: -50px;
+}
+
+.StoryCreaterText{
+  font-size: 17px;
+}
+
+.blood {
+  color:white;
+  text-shadow:
+  4px 4px 1px #300000,
+  4px 6px 1px #400000,
+  4px 8px 1px #500000,
+  4px 10px 1px #600000,
+  4px 12px 1px #700000,
+  4px 14px 1px #800000,
+  4px 16px 1px #900000,
+  4px 18px 1px #A00000,
+  4px 20px 1px #B00000,
+  4px 22px 1px #C00000,
+  4px 24px 1px #D00000,
+  4px 26px 1px #E00000,
+  4px 28px 1px #F00000,
+  4px 30px 1px #FA0000,
+  4px 32px 1px #FB0000,
+  4px 34px 1px #FC0000,
+  4px 36px 1px #FD0000,
+  4px 38px 1px #FE0000,
+  4px 40px 2px #FF0000;
+  font-family: 'Butcherman', cursive;  
+}
+
+
+@media(max-width: 800px){
+  .img-fluids{
+      float: left;
+      display: block;
+      margin-left: 20px;
+      margin-top: 20px;
+      padding: 0.5em;
+    }
+  .img-fluid{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 97%;
+    padding: 0.5em;
+    max-height: 80%;
+  }
+
+}
+
+@media(max-width: 500px){
+  #NextCat{
+    height: 50px;
+    position: relative;
+    top: 50px;
+    line-height: 35px;
+    margin-right: 18px;
+    padding: 0.5em;
+    width: 46%;
+    display: inline-block;
+  }
+  
+  #BackCat{
+    height: 50px;
+    position: relative;
+    top: 50px;
+    width: 40%;
+    line-height: 35px;
+    margin-left: 18px;
+    padding: 0.5em;
+    display: inline-block;
+  }
+
+}
+
+@media(max-width: 800px){
+  #StoryText{
+    padding: 0.5em;
+    width: 265px;
+    font-size: 20px;
+  }
+.StoryCreaterText{
+  font-size: 20px;
+  }
+}
+
+@media(max-width:800px){
+  form{
+    padding: 0.5em;
+    width: 450px;
+    max-width: 90%;
+    display: inline-block;
+  }
 }
