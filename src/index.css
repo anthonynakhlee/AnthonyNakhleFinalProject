@@ -14,14 +14,14 @@ body {
 /* home page introductions */
 
 .jumbotron{
-  background: url(images8.jpeg);
+  background: url(images7.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   text-shadow: 1px 1px 2px black;
   color: white;
   position: relative;
-  height: 543px;
+  height: 593px;
   margin-top: 30px;
 }
 

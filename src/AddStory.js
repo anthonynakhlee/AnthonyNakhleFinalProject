@@ -44,9 +44,12 @@ export default class Todo extends React.Component {
     return (
       <Router>
         <div>
-          <Link to="/stories">Stories</Link> -
-          <Link to="/admin"> Admin</Link>
           <Switch>
+            <Route
+              exact
+              path="/add"
+              render={() => <StoryForm x={this.addStory} />}
+            />
             <Route
               exact
               path="/stories"
@@ -62,11 +65,6 @@ export default class Todo extends React.Component {
                   stories={this.state.stories}
                 />
               )}
-            />
-            <Route
-              exact
-              path="/add"
-              render={() => <StoryForm x={this.addStory} />}
             />
           </Switch>
         </div>

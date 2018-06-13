@@ -39,7 +39,7 @@ class Home extends React.Component{
             <p className="lead">Our purpose is to make sure every horror story lover gets the chills he expects when reading something scary.</p>
             <p className="leads">Everyone deserves to take a break from life, venture into our stories and get that spooky feeling you deserve!</p>
             <p className="lead">
-              <a className="btn btn-primary btn-lg" href="/creepy" role="button">Start Reading</a>
+              <a className="btn btn-primary btn-lg" href="/creepy" role="button">Take The Horror Ride!</a>
             </p>
           </div>
         </div>

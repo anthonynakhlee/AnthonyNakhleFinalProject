@@ -22,9 +22,9 @@ const AppRouter = () => (
             <Route exact path="/paranormal" component={Paranormal} />
             <Route exact path="/urban" component={Urban} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/AdminStoryList" component={AdminStoryList} />
+            <Route exact path="/admin" component={AdminStoryList} />
             <Route exact path="/add" component={AddStory} />
-            <Route exact path="/StoryList" component={StoryList} />
+            <Route exact path="/Stories" component={StoryList} />
             <Route exact path="/AddStory" component={AddStory} />
             </Switch>
             </BrowserRouter> 
